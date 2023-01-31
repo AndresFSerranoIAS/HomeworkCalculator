@@ -1,12 +1,11 @@
-<form id="containerMul">
+<form id="containerSum">
     <div class="containerinput">
-        <label class="titleElement">MULTIPLICACIÓN</label><br>
-
-        <label class="firstElement">Valor 1: </label>
-        <input type="text" id="element1" placeholder="Ingrese el primer valor"> <br>
-
-        <label class="secondElement">Valor 2: </label>
-        <input type="text" id="element2" placeholder="Ingrese el segundo valor">
+        <label class="titleElement">MULTI</label><br>
+        <p>Valor 1: <input type="number" #inputValor1 placeholder="Ingrese el primer valor" style="font-size:small; text-align:center;"></p>
+        <p>Valor 2: <input type="number" #inputValor2 placeholder="Ingrese el segundo valor"style="font-size:small; text-align:center;"></p>
+        <p>Valor 3: <input type="number" #inputValor3 placeholder="Ingrese el tercer valor"style="font-size:small; text-align:center;"></p>
+        <p>Resultado: {{resultado}}</p>
+        <button type="button" class="sumarBtn" (click)="multiplicar(inputValor1.value, inputValor2.value,inputValor3.value)">Multiplicar</button>
+        <button type="reset" class="limpiarBtn" (click)="limpiar()">Limpiar</button>
     </div>
-    
 </form>

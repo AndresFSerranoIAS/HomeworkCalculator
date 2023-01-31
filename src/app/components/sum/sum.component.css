@@ -1,3 +1,91 @@
-.containerinput{
+#containerSum {
+    width: 10rem;
+    margin: 0 auto;
     text-align: center;
-}
+    }
+    
+    @media (max-width: 767px) {
+    #containerSum {
+    width: 90%;
+    }
+    }
+    
+    @media (max-width: 500px) {
+    #containerSum {
+    width: 95%;
+    }
+    }
+    
+    .containerinput {
+    display: inline-block;
+    }
+    
+    .titleElement {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    }
+    
+    input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    }
+    
+    @media (max-width: 767px) {
+    input[type="number"] {
+    width: 80%;
+    }
+    }
+    
+    @media (max-width: 500px) {
+    input[type="number"] {
+    width: 95%;
+    }
+    }
+    
+    .sumarBtn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    }
+    
+    .limpiarBtn {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    }
+    
+    @media (max-width: 767px) {
+    button {
+    width: 80%;
+    }
+    }
+    
+    @media (max-width: 500px) {
+    button {
+    width: 95%;
+    }
+    }
+
+    @media (max-width: 375px) {
+        #containerSum {
+        width: 90%;
+        padding: 20px;
+        }
+    }
+
+        

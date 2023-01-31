@@ -5,16 +5,19 @@
     text-align: center;
   }
 
-.child {
-    background: linear-gradient(to top right, #8c9093 0%, #db9753 100%);
+  .child {
+    background: linear-gradient(to top right, #7b7d80 0%, #918bb4 100%);
     width: 20rem;
     height: 30rem;
     margin: 0.5rem;
-}
+    border: black;
+    border-radius: 10%;
+    box-sizing: border-box;
+    }
 
 .titleCalculator{
     color: rgb(54, 34, 126);
-    font-size: xx-large;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -24,3 +27,11 @@
     justify-content: center;
     padding: 2%;
 }
+
+#element1{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
