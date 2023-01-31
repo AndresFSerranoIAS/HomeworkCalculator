@@ -69,6 +69,14 @@
     width: 100%;
     }
     
+    .sumarBtn:hover {
+        background-color: #3e8e41; /* light green */
+    }
+    
+    .limpiarBtn:hover {
+        background-color: #d32f2f; /* light red */
+    }
+
     @media (max-width: 767px) {
     button {
     width: 80%;
